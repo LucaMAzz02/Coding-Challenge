@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url("background.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.logo{
+    width: 200px;
+    margin-top: 60px;
+}
+
+
+
+.container{
+    background: rgba(1, 1, 1, .5);
+    width: 900px;
+    height: 680px;
+    margin: auto;
+    border-radius: 20px;
+    margin-top: 25px;
+}
+
+header{
+    text-align: center;
+}
+
+
+.titolo{
+    color:  rgb(12, 239, 12);
+    font-size: 30px;
+}
+
+.motori-ricerca{
+    margin-left: 50px;
+    margin-right: 50px;
+    background-color: rgb(12, 239, 12);
+    height: 50px;
+}
+
+button{
+    margin: 15px 0px 15px 0px;
+}
+
+.scelte{
+    padding-left: 50px;
+    padding-top: 20px;
+    width: 1000px;
+    color: #fff;
+}
+
+.scelte span{
+    font-size: 30px;
+}
+
+.stato-carica1{
+    width: 300px;
+    height: 25px;
+    background-color: orange;
+    border-radius: 5px;
+}
+.stato-carica2{
+    width: 500px;
+    height: 25px;
+    background-color: rgb(12, 239, 12);
+    border-radius: 5px;
+}
+.stato-carica3{
+    width: 130px;
+    height: 25px;
+    border-radius: 5px;
+    background-color: rgb(231, 53, 53);
+}
+
+.scelte span{
+    font-size: 16px;
+}
+
+.scelte p{
+    font-size: 16px;
+}
+
+.Options{
+    display: inline-block;
+}
+
+
+
